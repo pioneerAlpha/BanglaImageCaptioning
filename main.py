@@ -65,8 +65,8 @@ def main(config):
         config.start_epoch = checkpoint['epoch'] + 1
 
     print("Start Training..")
-    train_file = open("losses/training_loss.txt","w")
-    val_file= open("losses/val_loss.txt",'w')
+    train_file = open("losses/training_loss.txt","a")
+    val_file= open("losses/val_loss.txt",'a')
 
     for epoch in range(config.start_epoch, config.epochs):
         print(f"Epoch: {epoch}")
