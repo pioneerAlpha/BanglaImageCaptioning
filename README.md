@@ -20,4 +20,5 @@ In addition, please add the project folder to PYTHONPATH and `pip install` the f
 1. Download [BanglaLekhaImageCaptions](https://data.mendeley.com/datasets/rxxch9vw59/2) dataset.
 
 **Examples captions by our model**
+
 <img src="images/examples.png" />
